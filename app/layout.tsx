@@ -7,12 +7,12 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Trias Firmansyah | Frontend Developper Portfolio",
+  title: "Muhamad Trias Firmansyah | Frontend Developer Portfolio",
   description: "Portfolio of a passionate Front-end Developer Enthusiast and Software Engineering student",
   generator: "v0.app",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo-icon.png",
+    apple: "/logo-icon.png",
   },
 }
 

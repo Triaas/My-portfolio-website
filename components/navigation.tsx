@@ -22,15 +22,19 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-xl font-bold text-foreground hover:text-primary transition-colors flex items-center"
+            className="text-xl font-bold text-foreground hover:text-primary transition-colors flex items-center gap-3"
           >
             <Image
-              src="/logo.png"
-              alt="Trias Firmansyah Logo"
+              src="/logo-icon.png"
+              alt="Muhamad Trias Firmansyah Logo"
               width={40}
               height={40}
               className="w-10 h-10 object-contain"
             />
+            <span className="hidden sm:flex items-center gap-2 text-base lg:text-lg">
+              <span className="text-foreground font-semibold">MUHAMAD TRIAS</span>
+              <span className="text-primary font-bold">FIRMANSYAH</span>
+            </span>
           </button>
 
           {/* Desktop Navigation */}
