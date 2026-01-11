@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   description: "Portfolio of a passionate Front-end Developer Enthusiast and Software Engineering student",
   generator: "v0.app",
   icons: {
-    icon: "/logo-icon.png",
-    apple: "/logo-icon.png",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 }
 
